@@ -1,0 +1,34 @@
+                    /* nav style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  background-color: rgba(0, 0, 0, 0.177);
+  display: flex;
+}
+                               /* background image  */
+.image {
+  background-image: url(/assets/Hero-bg.png);
+ 
+}
+
+.Layer_1{
+    
+    text-align: center;
+}
+.layer-02{
+    text-align: center;
+}
+
+.layer-03{
+    text-align: right;
+}
+
+                              /* button  */
+/* .btn-primary {
+   /* background-color: rgba(19, 205, 19, 0.055); */
+/* background:none; */
+
+
