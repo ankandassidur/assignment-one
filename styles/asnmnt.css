@@ -3,10 +3,21 @@
 nav {
   display: flex;
   justify-content: space-between;
-}
 
+}
+/* body  */
+.webbody{
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .image {
   background-image: url(/assets/Hero-bg.png);
+  height: 672px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
 }
 /* hablur chobi middle e ansi */
 .hablu {
@@ -128,19 +139,65 @@ nav {
 
 /* current  */
 .current {
-    text-align: center;
+  text-align: center;
 
-    padding: 18px 35px;
-    margin-bottom: 20px;
-}
-.skill0{
-  padding: 30px;
-     box-shadow: 0px 6px 50px 0px rgba(165, 6, 6, 0.428);
-border-radius: 5px;
+  padding: 18px 35px;
+  margin-bottom: 20px;
 }
 
-.skill{
-  padding: 30px;
-   box-shadow: 0px 6px 50px 0px rgba(165, 6, 6, 0.428);
-border-radius: 5px;
+.skills-container{
+  display: flex;
+  gap: 24px;
+justify-content: space-between;
 }
+
+
+
+
+
+/* html css javascirpts  */
+
+.section-title{
+  text-align: center;
+}
+.section-description{
+  text-align: center;
+}
+
+.skill01{
+  background-color: #FF4C1E0D;
+}
+.skill02{
+  background-color:#004CE80D;
+}
+.skill03{
+  background-color: #FFDF000D;
+}
+
+/* need support  */
+.need_support{
+  background-image: url(/assets/handshake.jpg);
+  height: 672px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+
+/* footerrr  */
+
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
