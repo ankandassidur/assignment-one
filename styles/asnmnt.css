@@ -12,7 +12,7 @@ nav {
   margin-right: auto;
 }
 .image {
-  background-image: url('/assets/Hero-bg.png');
+  background-image: url('assets/Hero-bg.png');
   height: 672px;
   display: flex;
   flex-direction: column;
@@ -182,7 +182,7 @@ justify-content: space-between;
 
 /* need support  */
 .need_support{
-  background-image: url('/assets/handshake.jpg');
+  background-image: url('assets/handshake.jpg');
   background-size: cover;
   background-position: center;
   height: 313px;
