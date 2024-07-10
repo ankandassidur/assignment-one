@@ -1,34 +1,205 @@
+/* nav style  */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.image {
+    background-image: url(/assets/Hero-bg.png);
+    
+  } 
+  /* hablur chobi middle e ansi */
+  .hablu{
+    text-align: center;
+  }
+
+.fstpara {
+  text-align: center;
+}
+
+.margin{
+    margin-bottom: 50px;
+}
+
+.front{
+    text-align: center;
+}
+.fstpara{
+    text-align: left;
+}
+
+/* image  */
+.halbu1{
+    justify-content: right;
+}
+
+
+
+/* 1st paara  */
+
+
+.fsterage{
+    /* Frame 8 */
+position: static;
+width: 946px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+
+}
+
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+.scndcont{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: 50px auto;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+
+
+/* text  */
+
+.text-content{
+    max-width: 50%;
+}
+
+
+.learn-more-btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000000;
+    background-color: none;
+    border: 30p;
+
+}
+.image-content{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+/* 
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                     
+                
+                    
+                    
                     /* nav style  */
+/* 
+
+
+
 nav {
   display: flex;
   justify-content: space-between;
-}
-
+} */
+/* 
 .contact {
   background-color: rgba(0, 0, 0, 0.177);
   display: flex;
 }
                                /* background image  */
-.image {
+/* .image {
   background-image: url(/assets/Hero-bg.png);
  
-}
-
+} */
+/* 
 .Layer_1{
     
     text-align: center;
 }
 .layer-02{
     text-align: center;
-}
-
+} */
+/* 
 .layer-03{
     text-align: right;
 }
 
+.layer-04{
+    text-align: right;
+
+}
+.layer05{
+   text-align: right;
+} */
+/* 
+ */ 
+
                               /* button  */
-/* .btn-primary {
-   /* background-color: rgba(19, 205, 19, 0.055); */
-/* background:none; */
+/* 
 
-
+.main{
+    max-width: 1440px;
+    margin: 0 auto;
+} */ 
