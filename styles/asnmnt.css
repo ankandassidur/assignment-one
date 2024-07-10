@@ -192,18 +192,13 @@ justify-content: space-between;
   justify-items: center;
   text-align: center;
   color: #FFFFFF;
+
 }
 
-
-/* input_button  */
-
-
-  .need_support {
-
-  }
-    
-  
-
+.input_button{
+  width: 684px;
+  height: 57px;
+}
 
 /* footerrr  */
 
@@ -218,4 +213,47 @@ justify-content: space-between;
 
 
 
-/* ok  */
+/* next target   */
+.react{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nodejs{
+  display: flex;
+  align-items: center;
+  
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mongoDB{
+  display: flex;
+  align-items: center;
+ 
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.box{
+  background: white;
+  border: none;
+  border-radius: 5px;
+  height: 57px;
+  width: 684px;
+}
+
+.input_wrapper{
+  display: flex;
+  margin: 0 auto;
+}
