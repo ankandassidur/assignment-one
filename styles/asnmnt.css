@@ -1,205 +1,146 @@
 /* nav style  */
 
-nav{
-    display: flex;
-    justify-content: space-between;
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-
 .image {
-    background-image: url(/assets/Hero-bg.png);
-    
-  } 
-  /* hablur chobi middle e ansi */
-  .hablu{
-    text-align: center;
-  }
+  background-image: url(/assets/Hero-bg.png);
+}
+/* hablur chobi middle e ansi */
+.hablu {
+  text-align: center;
+}
 
 .fstpara {
   text-align: center;
 }
 
-.margin{
-    margin-bottom: 50px;
+.margin {
+  margin-bottom: 50px;
 }
 
-.front{
-    text-align: center;
+.front {
+  text-align: center;
 }
-.fstpara{
-    text-align: left;
+.fstpara {
+  text-align: center;
 }
 
 /* image  */
-.halbu1{
-    justify-content: right;
+.halbu1 {
+  justify-content: right;
 }
-
-
 
 /* 1st paara  */
 
+.fsterage {
+  position: static;
+  width: 946px;
+  height: 336px;
 
-.fsterage{
-    /* Frame 8 */
-position: static;
-width: 946px;
-height: 336px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 48px;
 
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 32px 0px;
-
+  margin: 32px 0px;
 }
 
-
-
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 1200px;
-        margin: 50px auto;
-        background-color: #fff;
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-
-
-.scndcont{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   max-width: 1200px;
-   margin: 50px auto;
-   padding: 20px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #913f3f19;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.scndcont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
+.thirdpara {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(191, 54, 54, 0.3);
+}
 
 /* text  */
 
-.text-content{
-    max-width: 50%;
+.webdev {
+  text-align: center;
+}
+.text-content {
+  max-width: 50%;
 }
 
-
-.learn-more-btn{
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #000000;
-    background-color: none;
-    border: 30p;
-
+.learn-more-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000000;
+  background-color: none;
+  border: 30p;
 }
-.image-content{
-    max-width: 100%;
-    height: auto;
+.image-content {
+  max-width: 100%;
+  height: auto;
 }
 
-
-
-
-
-
-
-
-/* 
-
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*                     
-                
-                    
-                    
-                    /* nav style  */
-/* 
-
-
-
-nav {
-  display: flex;
-  justify-content: space-between;
-} */
-/* 
-.contact {
-  background-color: rgba(0, 0, 0, 0.177);
-  display: flex;
+/* button er color  */
+.contactme {
+  border: 1px;
+  border-radius: 5px;
+  background-color: #0d1321;
+  color: aliceblue;
+  padding: 18px 35px;
+  margin-bottom: 20px;
 }
-                               /* background image  */
-/* .image {
-  background-image: url(/assets/Hero-bg.png);
- 
-} */
-/* 
-.Layer_1{
-    
+/* my insparation  */
+.inspa {
+  text-align: center;
+
+  padding: 18px 35px;
+  margin-bottom: 20px;
+}
+/* videolink  */
+.videolink {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  padding: 18px 35px;
+  margin-bottom: 20px;
+}
+
+/* current  */
+.current {
     text-align: center;
+
+    padding: 18px 35px;
+    margin-bottom: 20px;
 }
-.layer-02{
-    text-align: center;
-} */
-/* 
-.layer-03{
-    text-align: right;
+.skill0{
+  padding: 30px;
+     box-shadow: 0px 6px 50px 0px rgba(165, 6, 6, 0.428);
+border-radius: 5px;
 }
 
-.layer-04{
-    text-align: right;
-
+.skill{
+  padding: 30px;
+   box-shadow: 0px 6px 50px 0px rgba(165, 6, 6, 0.428);
+border-radius: 5px;
 }
-.layer05{
-   text-align: right;
-} */
-/* 
- */ 
-
-                              /* button  */
-/* 
-
-.main{
-    max-width: 1440px;
-    margin: 0 auto;
-} */ 
